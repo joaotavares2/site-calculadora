@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+body{
+    background-color: #202224;
+}
+.light-mode{
+    background-color: #bbbaba; 
+}
+
+.calculadora{
+    background-color: rgba(141, 141, 141, 0.267);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    padding: 15px;
+    
+}
+.light-mode .calculadora{
+    background-color: rgb(231, 231, 231);
+}
+
+.btn{
+    background-color: #272b2e;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    margin: 2px;
+    color: #fff;
+    border-radius: 5px;
+}
+.light-mode .btn{
+    background-color: #aaaaaa;
+    color:#191a1b;
+}
+
+.btn:hover{
+    background-color: #191a1b;
+    transition: background-color 0.5s ease;
+}
+
+.light-mode .btn:hover{
+    background-color: #e8f6ff;
+}
+
+.fundo{
+    width: 100%;
+    background-color: rgb(88, 88, 88);
+    height: 3.5rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: right;
+
+}
+.light-mode .fundo{
+    background-color: #aaaaaa;
+    color: #191a1b;
+}
+
+#resultado{
+    padding-right: 6px;
+    padding-top: 5px;
+}
+
+#toggleBtn {
+    position: fixed;
+    top: 40%; 
+    right: 10%; 
+}
+
+#logojp{
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    position: fixed ;
+    margin-top: 2%;
+    color: #bbbaba;
+    left: 4%;
+    text-decoration: none;
+}
+
+.light-mode #logojp{
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    color: #2b2b2b;
+}
