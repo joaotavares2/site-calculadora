@@ -74,9 +74,10 @@ body{
 }
 
 #toggleBtn {
+    align-items: end;
     position: fixed;
     top: 40%; 
-    right: 10%; 
+    right: 2%; 
 }
 
 #logojp{
